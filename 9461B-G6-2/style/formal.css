@@ -1,0 +1,169 @@
+* {
+	padding : 0;
+	margin : 0;
+}
+
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	line height:1.5;
+	background-color : #F0FFF0;
+	color : black;	
+}
+
+html,body {
+	height :100%;
+	padding : 0;
+	margin : 0;
+}
+
+.container {
+	width :80%;
+	margin:auto;
+	overflow: hidden;
+	}
+
+.page {
+	background-color : #F0FFF0;
+	padding : 30px 60 px;
+}
+
+h1 {
+	font-size : 250%;
+}
+
+p {
+	font-family : 'Helvetica Neue', sans-serif;
+	font-size: 115%;
+}
+
+/* Header */
+header {
+	background-color : #C0C0C0;
+	color : #ffffff;
+	border-bottom : 10px solid black;
+	padding : 20 px 0;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+    padding-right: 40px;
+}
+
+nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header .highlight, header .current a {
+    color: black;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+header nav a:hover {
+    color: #FFE4C4;
+    background-color: Black;
+    padding: 10px 10px 10px 10px;
+}
+
+#logo {
+	padding-left: 40px;
+}
+
+div.banner {
+	height: 100% !important;
+	background-image: url("image6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+}
+
+figure figcaption {
+    font-size: 80%;
+    font-style: italic;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+#page-banner {
+    background: url("team.jpg") no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#blog-post p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+figcaption {
+	display: block;
+}
+aside:nth-of-type(odd) {
+    float: right;
+    text-align: center;
+    margin-left: 40px;
+}
+
+ aside:nth-of-type(even) {
+        float: left;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+#office {
+	width: 400px;
+	height: auto;
+}
+
+#councelor {
+	float: center !important;
+	width: 70% !important;
+	height: auto;
+}
+
+ul {
+	list-style-type: square;
+   }
+ol {
+	padding-left: 20px;
+}
+li {
+	margin-left: 20px;
+}
+h1#about-guidance {
+	text-align: center;
+}
+
+#image3{
+	height: auto;
+    width: 500px;
+{
+
+
